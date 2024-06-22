@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         donateBanner.style.display = 'block';
     }, 10000);
     donateButton.addEventListener('click', () => {
-        window.location.href = 'https://facebook.com/OctobotRemake.Owner';
+        window.location.href = 'https://facebook.com/1753855074';
     });
     closeButton.addEventListener('click', () => {
         donateBanner.style.display = 'none';
