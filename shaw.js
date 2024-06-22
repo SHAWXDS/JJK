@@ -4,7 +4,7 @@ const fs = require('fs');
 const url = "https://gpt4withcustommodel.onrender.com/";
 
 module.exports = {
-  description: "Generate image in emi",
+  description: "Generate image in SHAW - AI",
   role: "user",
   credits: 'deku | AkhiroDEV',
   cooldown: 8,
