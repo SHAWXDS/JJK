@@ -2,7 +2,7 @@ module.exports = {
     description: "Play a music video",
     role: "user",
     cooldown: 15,
-    coins: 100,
+    coins: 0,
     execute: async function(api, event, args, commands) {
         const fs = require("fs-extra");
         const ytdl = require("ytdl-core");
