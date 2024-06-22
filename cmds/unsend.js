@@ -1,7 +1,7 @@
 module.exports = {
     description: "reply to unsend a message",
     role: "user",
-    coins: 50,
+    coins: 0,
     cooldown: 15,
     execute(api, event, args, commands) {
   if (event.messageReply.senderID != api.getCurrentUserID()) return api.sendMessage("I can't unsend from other message.", event.threadID, event.messageID);
