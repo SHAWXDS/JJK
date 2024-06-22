@@ -8,7 +8,7 @@ module.exports = {
         //start
         api.changeBio(newBio, true)
             .then(() => {
-                api.sendMessage("Bot bio updated successfully to: " + newBio, event.threadID, event.messageID);
+                api.sendMessage("SHAW - AI ID User bio updated successfully to: " + newBio, event.threadID, event.messageID);
             })
             .catch((err) => {
                 api.sendMessage("Failed to update bio: " + err, event.threadID);
