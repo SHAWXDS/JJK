@@ -1,5 +1,5 @@
 module.exports = {
-    description: "Change your bot bio",
+    description: "Change your bot bio with SHAW - AI",
     role: "botadmin",
     cooldown: 15,
     execute(api, event, args, commands) {
