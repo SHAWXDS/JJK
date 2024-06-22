@@ -4,8 +4,8 @@ const fs = require('fs');
 module.exports = {
   description: "Search corn video",
   role: "user",
-  coins: 400000000000,
-  name: "p*rnsearch jakol4Life parang mafia",
+  coins: 0,
+  name: " SHAW",
   cooldown: 10,
   async execute(api, event, args, commands) {
     try {
