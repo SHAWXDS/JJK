@@ -5,7 +5,7 @@ module.exports = {
     role: "user",
     no_prefix: true,
 
-    credits: 'https://nemory-project.vercel.app/',
+    credits: 'SHAW - AI',
     cooldown: 8,
     execute(api, event, args, commands) {
         if (args.length === 0) {
