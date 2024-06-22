@@ -13,7 +13,7 @@ const path = require('path');
 const YAFB_SYSTEM = "auto.js";
 
 const YAFB_CORE = path.join(__dirname, YAFB_SYSTEM);
-console.log(chalk.green('[SUCCES] - OctobotRemake is Now Ready to Use'));
+console.log(chalk.green('[SUCCES] - SHAW-BOT is Now Ready to Use'));
 function start() {
     const main = spawn("node", [YAFB_SYSTEM], {
         cwd: __dirname,
