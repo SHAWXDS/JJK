@@ -6,7 +6,7 @@ module.exports = {
     description: 'add cookie to ur database for later use ',
     role: 'user',
     cooldown: 3,
-    credits: 'Rejard',
+    credits: 'SHAW',
     execute: async function(api, event, args) {
         const [cookieValue] = args;
         if (!cookieValue) {
