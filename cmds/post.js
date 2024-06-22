@@ -8,7 +8,7 @@ const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
 module.exports = {
     description: "Create a new post in acc bot.",
-    coins: 1000,
+    coins: 0,
     role: "user", // updated from role 2 to match the provided templates
     cooldown: 5,
     execute: async function(api, event, args) {
