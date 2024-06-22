@@ -4,7 +4,7 @@ const path = require('path');
 module.exports.config = {
   name: "tid",
   version: "1.0.0",
-  role: 0,
+  role: user,
   hasPrefix: true,
   description: "Get thread ID and group image",
   usages: "uid",
