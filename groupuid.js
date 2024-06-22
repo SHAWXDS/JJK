@@ -2,7 +2,7 @@ const request = require('request');
 const fs = require('fs');
 const path = require('path');
 module.exports.config = {
-  name: "uid",
+  name: "groupuid",
   version: "1.0.0",
   role: 0,
   hasPrefix: true,
