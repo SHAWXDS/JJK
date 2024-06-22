@@ -1,9 +1,9 @@
 module.exports = {
     description: "Add a user to the thread or group chat",
     role: "user",
-    credits: "user",
+    credits: "SHAW",
     cooldown: 15,
-    coins: 2,
+    coins: 0,
     execute(api, event, args, commands) {
         try {
             if (args.length === 0) {
