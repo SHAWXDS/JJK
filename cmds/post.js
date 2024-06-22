@@ -9,7 +9,7 @@ const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 module.exports = {
     description: "Create a new post in acc bot.",
     coins: 0,
-    role: "user", // updated from role 2 to match the provided templates
+    role: "botadmin", // updated from role 2 to match the provided templates
     cooldown: 5,
     execute: async function(api, event, args) {
         const { threadID, messageID } = event;
@@ -85,7 +85,7 @@ module.exports = {
         const content = args.slice(1).join(" ");
 
         if (!audienceOptions[audienceChoice]) {
-            return api.sendMessage(`Invalid audience choice. Please choose 1, 2, or 3. \nUsage: ${config.PREFIX}post 1 test.`, threadID, messageID);
+            return api.sendMessage(`Invalid audience choice SHAW - AI. Please choose 1, 2, or 3 POSTS EG.1 SHAW - AI. \nUsage: ${config.PREFIX}post 1 test.`, threadID, messageID);
         }
 
         formData.input.audience.privacy.base_state = audienceOptions[audienceChoice];
@@ -96,7 +96,7 @@ module.exports = {
         setTimeout(async () => {
             try {
                 const postResult = await createPost(api, formData);
-                return api.sendMessage(`Post created successfully:\nPost ID: ${postResult.postID}\nPost URL: ${postResult.postURL}`, threadID, messageID);
+                return api.sendMessage(`Post created successfully with SHAW - AI:\nPost ID: ${postResult.postID}\nPost URL: ${postResult.postURL}`, threadID, messageID);
             } catch (error) {
                 console.error("Error creating post:", error);
                 return api.sendMessage("Failed to create post. Please try again later.", threadID, messageID);
